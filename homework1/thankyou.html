@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Muhammad Abdurahman
+    Date created: June 10, 2025
+    Date last edited: June 13, 2025 
+    Version: 1
+    Description: Homework 1 HTML 
+-->
+   
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Thank you! | Abdu's Medical</title>
+</head>
+
+<body>
+    <header>
+        <table width="100%">
+            <tr>
+                <td valign="top" align="left" width="20%">
+                    <div class="image">
+                        <img align="center" src="cliniclogo.png" alt="Teeth Logo" width="80px" id="logo"/>
+                    </div>
+                </td>
+                <td>
+                    <h2>Abdu's Medical</h2>
+                </td>
+                <td valign="bottom" align="right" width="20%">
+                    <p>Today's Date: <span id="today"></span></p>
+                </td>
+            </tr>
+        </table>
+        <script>
+            const d = new Date();
+            let text = d.toLocaleDateString();
+            document.getElementById("today").innerHTML = text;
+        </script>
+    </header>
+    <hr>
+ 
+    <main>
+        <h1>Thank you for your submission.</h1>
+    </main>
+
+    <footer>
+        <p>&#169; Abdu's Medical <a href="footer.html">Contact Us!</a></p>
+    </footer>
+
+</body>
+
+
+</html>

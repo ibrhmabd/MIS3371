@@ -1,0 +1,101 @@
+/*
+Name: Muhammad Abdurahman 
+Date created: June 10, 2025
+Date last edited: June 13, 2025
+Version: 1
+Description: Homework 1 CSS 
+*/
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightblue;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+}
+
+.td1 {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+th {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    height: 2.0rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+input {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+p {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
