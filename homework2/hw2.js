@@ -176,7 +176,7 @@ function validatePword(pword, uid) {
 
 function confirmPword() {
     pword1 = document.getElementById("pword").value;
-    pword2 = document.getElementById("con_pword").value;
+    pword2 = document.getElementById("pword2").value;
 
     if (pword1 !== pword2) {
         document.getElementById("pword2-error").innerHTML = 
